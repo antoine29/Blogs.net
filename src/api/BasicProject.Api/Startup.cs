@@ -67,6 +67,7 @@
 
             services.AddScoped<ICheckSystemDAO, CheckSystemDAO>();
             services.AddScoped<IHealthService, HealthService>();
+            services.AddScoped<IBlogsService, BlogsService>();
 
             services.AddSingleton<Ilogger>(LoggerFactory.GetLogger<Startup>());
         }
