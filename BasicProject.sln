@@ -38,6 +38,9 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasicProject.Api.Exceptions", "src\api\BasicProject.Api.Exceptions\BasicProject.Api.Exceptions.csproj", "{39DD1F2E-BE6C-433D-B50B-B38E6B065CBA}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E7A6B08F-3565-4073-B877-2AF566B2DDCF}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasicProject.Domain", "src\domain\BasicProject.Domain\BasicProject.Domain.csproj", "{788481C9-6988-4E66-A7CB-47E8FE4EF9F4}"
 EndProject

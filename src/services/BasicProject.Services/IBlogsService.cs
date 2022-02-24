@@ -1,9 +1,8 @@
 namespace BasicProject.Services
 {
-    using BasicProject.Domain;
-
     using System;
     using System.Collections.Generic;
+    using BasicProject.Domain;
 
     public interface IBlogsService
     {
@@ -11,6 +10,6 @@ namespace BasicProject.Services
 
         Blog GetBlog(string id);
 
-        Blog CreateBlog(Blog blog);
+        Blog CreateBlog(Blog newBlog);
     }
 }
