@@ -14,9 +14,9 @@
 
         public override bool Create(object any)
         {
-            Sanitize(any);
+            this.Sanitize(any);
 
-            logger.Information("Creating from PostgreSQL Database");
+            this.logger.Information("Creating from PostgreSQL Database");
             return true;
         }
     }

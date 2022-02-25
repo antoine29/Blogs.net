@@ -1,8 +1,8 @@
 ﻿namespace BasicProject.Data
 {
-    using BasicProject.Domain;
     using System;
     using System.Collections.Generic;
+    using BasicProject.Domain;
 
     public abstract class SqlAbstract : ISqlServerDAO
     {
